@@ -211,7 +211,7 @@ cmarkgfm==0.5.3 \
     --hash=sha256:fa91bd1f01fa40bea9b418a66b15d54d330f2c58c78f0e03ae767922d6e6dab0 \
     --hash=sha256:ffc4e244ea2e752b03f2d82eb40ad87b2c0faac28db21223e91b29f61c8580c3
     # via readme-renderer
-cryptography==3.4.7 \
+cryptography==41.0.6 \
     --hash=sha256:0f1212a66329c80d68aeeb39b8a16d54ef57071bf22ff4e521657b27372e327d \
     --hash=sha256:1e056c28420c072c5e3cb36e2b23ee55e260cb04eee08f702e0edfec3fb51959 \
     --hash=sha256:240f5c21aef0b73f40bb9f78d2caff73186700bf1bc6b94285699aff98cc16c6 \
