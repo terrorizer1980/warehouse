@@ -248,7 +248,7 @@ disposable-email-domains==0.0.65 \
     --hash=sha256:8ee5f52d7971c2b15e85c452d26be6dd8b520508807e4ed2f5bdb2c098a8da3c \
     --hash=sha256:cca260936d0a9222d4319eba31ad83dd32a5801c8c0cba555721f879b5664570
     # via -r requirements/main.in
-dnspython==2.1.0 \
+dnspython==2.6.0rc1 \
     --hash=sha256:95d12f6ef0317118d2a1a6fc49aac65ffec7eb8087474158f42f26a639135216 \
     --hash=sha256:e4a87f0b573201a0f3727fa18a516b055fd1107e0e5477cded4a2de497df1dd4
     # via email-validator
