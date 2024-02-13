@@ -75,7 +75,7 @@ cachetools==4.2.2 \
     # via
     #   google-auth
     #   premailer
-cbor2==5.4.0 \
+cbor2==5.6.0 \
     --hash=sha256:059363ae716c60f6ba29aa61b3d9c57896189c351c4119095f0542aec169e4dc \
     --hash=sha256:0b80a4a4fca830af3d3cf36b725c31f0a98106e9c2b02004ab73b0ec7f139446 \
     --hash=sha256:0d22b47fb24b384200277fcfb0582c3a3551c413ad51f3bd3ee334caaf79a483 \
