@@ -75,7 +75,7 @@ cachetools==4.2.2 \
     # via
     #   google-auth
     #   premailer
-cbor2==5.4.0 \
+cbor2==5.6.0 \
     --hash=sha256:059363ae716c60f6ba29aa61b3d9c57896189c351c4119095f0542aec169e4dc \
     --hash=sha256:0b80a4a4fca830af3d3cf36b725c31f0a98106e9c2b02004ab73b0ec7f139446 \
     --hash=sha256:0d22b47fb24b384200277fcfb0582c3a3551c413ad51f3bd3ee334caaf79a483 \
@@ -99,7 +99,7 @@ celery==4.4.7 \
     # via
     #   -r requirements/main.in
     #   celery-redbeat
-certifi==2021.5.30 \
+certifi==2024.7.4 \
     --hash=sha256:2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee \
     --hash=sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8
     # via
@@ -449,7 +449,7 @@ hupper==1.10.3 \
     --hash=sha256:cd6f51b72c7587bc9bce8a65ecd025a1e95f1b03284519bfe91284d010316cd9 \
     --hash=sha256:f683850d62598c02faf3c7cdaaa727d8cbe3c5a2497a5737a8358386903b2601
     # via pyramid
-idna==2.10 \
+idna==3.7 \
     --hash=sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6 \
     --hash=sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0
     # via
@@ -639,7 +639,7 @@ proto-plus==1.18.1 \
     --hash=sha256:600e2793ec1a0bf2b9e5ba18cd9eccbc1bc690a03c73b571bbe59789fbaaeecc \
     --hash=sha256:cfc45474c7eda0fe3c4b9eca2542124f2a0ff5543242bec61e8d08bce0f5bd48
     # via google-cloud-bigquery
-protobuf==3.17.3 \
+protobuf==3.18.3 \
     --hash=sha256:13ee7be3c2d9a5d2b42a1030976f760f28755fcf5863c55b1460fd205e6cd637 \
     --hash=sha256:145ce0af55c4259ca74993ddab3479c78af064002ec8227beb3d944405123c71 \
     --hash=sha256:14c1c9377a7ffbeaccd4722ab0aa900091f52b516ad89c4b0c3bb0a4af903ba5 \
@@ -842,7 +842,7 @@ requests-aws4auth==1.1.1 \
     --hash=sha256:c0883346ce30b5018903a67da88df72f73ff06e1a320845bba9cd85e811ba0ba \
     --hash=sha256:dfd9f930ffde48a756b72b55698a8522875ea6358dcffbcc44a66700ace31783
     # via -r requirements/main.in
-requests==2.25.1 \
+requests==2.32.2 \
     --hash=sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804 \
     --hash=sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e
     # via
@@ -981,7 +981,7 @@ typeguard==2.12.1 \
     --hash=sha256:c2af8b9bdd7657f4bd27b45336e7930171aead796711bc4cfc99b4731bb9d051 \
     --hash=sha256:cc15ef2704c9909ef9c80e19c62fb8468c01f75aad12f651922acf4dbe822e02
     # via -r requirements/main.in
-urllib3==1.26.5 \
+urllib3==1.26.19 \
     --hash=sha256:753a0374df26658f99d826cfe40394a686d05985786d946fbe4165b5148f5a7c \
     --hash=sha256:a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098
     # via
@@ -1104,7 +1104,7 @@ zxcvbn==4.4.28 \
     # via -r requirements/main.in
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==57.0.0 \
+setuptools==65.5.1 \
     --hash=sha256:401cbf33a7bf817d08014d51560fc003b895c4cdc1a5b521ad2969e928a07535 \
     --hash=sha256:c8b9f1a457949002e358fea7d3f2a1e1b94ddc0354b2e40afc066bf95d21bf7b
     # via
@@ -1118,3 +1118,4 @@ setuptools==57.0.0 \
     #   zope.deprecation
     #   zope.interface
     #   zope.sqlalchemy
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
