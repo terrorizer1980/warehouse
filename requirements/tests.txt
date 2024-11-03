@@ -228,7 +228,7 @@ urllib3==1.26.5 \
     #   requests
     #   responses
     #   selenium
-waitress==2.0.0 \
+waitress==3.0.1 \
     --hash=sha256:29af5a53e9fb4e158f525367678b50053808ca6c21ba585754c77d790008c746 \
     --hash=sha256:69e1f242c7f80273490d3403c3976f3ac3b26e289856936d1f620ed48f321897
     # via webtest
