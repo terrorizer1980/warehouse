@@ -639,7 +639,7 @@ proto-plus==1.18.1 \
     --hash=sha256:600e2793ec1a0bf2b9e5ba18cd9eccbc1bc690a03c73b571bbe59789fbaaeecc \
     --hash=sha256:cfc45474c7eda0fe3c4b9eca2542124f2a0ff5543242bec61e8d08bce0f5bd48
     # via google-cloud-bigquery
-protobuf==3.17.3 \
+protobuf==4.25.8 \
     --hash=sha256:13ee7be3c2d9a5d2b42a1030976f760f28755fcf5863c55b1460fd205e6cd637 \
     --hash=sha256:145ce0af55c4259ca74993ddab3479c78af064002ec8227beb3d944405123c71 \
     --hash=sha256:14c1c9377a7ffbeaccd4722ab0aa900091f52b516ad89c4b0c3bb0a4af903ba5 \
@@ -981,7 +981,7 @@ typeguard==2.12.1 \
     --hash=sha256:c2af8b9bdd7657f4bd27b45336e7930171aead796711bc4cfc99b4731bb9d051 \
     --hash=sha256:cc15ef2704c9909ef9c80e19c62fb8468c01f75aad12f651922acf4dbe822e02
     # via -r requirements/main.in
-urllib3==1.26.5 \
+urllib3==2.5.0 \
     --hash=sha256:753a0374df26658f99d826cfe40394a686d05985786d946fbe4165b5148f5a7c \
     --hash=sha256:a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098
     # via
